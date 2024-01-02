@@ -5,7 +5,7 @@ This project was made to code a Financial Analysis using Javascript. This includ
 
 ## Installation
 You can check the website on this link:
-
+https://adahollins.github.io/Console-Finances/
 
 ## Usage
 To open up the Console Finance to acces the Financial Analysis, you have to open up the console. To do this, you press Cmd+Option+J (for Mac)/ Ctrl+Shift+J (for Windows). You can also access it by right clicking on the page and selecting 'Inspect' before clicking on 'Console' at the top of the pop-up. There you will find a range of information on finance throughout the years.
