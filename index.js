@@ -87,6 +87,8 @@ var finances = [
   ['Feb-2017', 671099],
 ];
 
+console.log("Financial Analysis")
+
 /*Total Months*/
 let totalMonths = 0;
 for (let i = 0; i < finances.length; i++) {
@@ -96,15 +98,31 @@ console.log("Total Months: " + totalMonths[i]);
 
 /*Total Finance*/
 let sum = 0;
-for (let i = 0; i < finances.length; i++) {
-  sum += finances[i][1];
+for (let j = 0; j < finances.length; j++) {
+  sum += finances[j][1];
 }
 console.log("Total: $" + sum);
 
 /*Average Change*/
-console.log("Average Change: " + sum/(totalMonths - 1))
+const averageChange = sum / (86 - 1)
+console.log("Average Change: " + averageChange);
 
 /*Greatest Increase in Profits/Losses*/
+var maxProfit = 0;
+for (var i = 0; i <= maxProfit; i++) {
+  if (finances[i][1] > maxProfit) {
+    maxProfit = finances[i];
+  }
+}
 
+console.log("Greatest Increase in Profits/Losses: " + maxProfit);
 
 /*Greatest Decrease in Profits/Losses*/
+var minProfit = 0;
+for (var i = 0; i >= minProfit; i++) {
+  if (finances[i][1] < minProfit) {
+    minProfit = finances[i];
+  }
+}
+
+  console.log("Greatest Decrease in Profits/Losses: " + minProfit);

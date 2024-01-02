@@ -1,22 +1,22 @@
 # Console-Finances
 
 ## Description
+This project was made to code a Financial Analysis using Javascript. This includes information such as the Total Money, Total Months, Average Change, Greatest Increase in Profit/Losses and Greatest Decrease in Profit/Losses.
+
+## Installation
+You can check the website on this link:
 
 
 ## Usage
-
-
-## Projects
-
-
-## About
-
+To open up the Console Finance to acces the Financial Analysis, you have to open up the console. To do this, you press Cmd+Option+J (for Mac)/ Ctrl+Shift+J (for Windows). You can also access it by right clicking on the page and selecting 'Inspect' before clicking on 'Console' at the top of the pop-up. There you will find a range of information on finance throughout the years.
 
 ## Credits
 freeCodeCamp:
 https://sentry.io/answers/how-to-find-the-sum-of-an-array-of-numbers/
-Matthew C. , Sentry:
+Sentry, Matthew C.:
 https://www.freecodecamp.org/news/how-to-count-objects-in-an-array/
+StackOverflow, Larry Battle:
+https://stackoverflow.com/questions/13794225/finding-largest-integer-in-an-array-in-javascript
 
 ## License
 MIT License
